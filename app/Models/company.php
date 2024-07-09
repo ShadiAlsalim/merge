@@ -18,7 +18,8 @@ class company extends Model
         'mobile_number',
         'approved',
         'logo',
-        'banner'
+        'banner',
+        'email'
     ];
 
 

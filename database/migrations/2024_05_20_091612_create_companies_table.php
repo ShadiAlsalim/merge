@@ -24,6 +24,7 @@ return new class extends Migration {
             $table->boolean('approved')->nullable();
             $table->string('logo')->nullable();
             $table->string('banner')->nullable();
+            $table->string('email')->nullable();
             $table->foreignId('user_id')->constrained('users')->nullable()->cascadeOnDelete();
             $table->timestamps();
         });
